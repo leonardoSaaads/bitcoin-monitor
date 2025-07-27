@@ -1,7 +1,7 @@
 import SideBar from './SideBar';
 import BitcoinPrice from './BitcoinPrice';
 import BitcoinBalance from './BitcoinBalance';
-import { useApp } from '../AppContext';
+import { useApp } from '../hooks/useAppContext';
 
 const Layout = () => {
   const { currentPage, setPage, setToken } = useApp();
