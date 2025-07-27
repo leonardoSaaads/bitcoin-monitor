@@ -1,4 +1,4 @@
-import { AppProvider } from './AppContext';
+import { AppProvider } from './AppProvider'; // Mudança aqui
 import Layout from './components/Layout';
 
 function App() {
